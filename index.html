@@ -1,4 +1,3 @@
-		
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,21 +9,21 @@
 			padding: 0px; 
 			font-family: 'Microsoft YaHei';
 		}
-		
 		a:link{
 			text-decoration: none;
-			/*color: black;*/
 		}
 		#nav{
+			margin: 0 auto;
 			width: 1200px;
 			height: 40px;
+			position: relative;
+			right: 320px;
 		}
 		#hello{
 			height: 40px;
-			width: 150px;
+			width: 180px;
 			line-height: 40px;
 			font-size: 13px;
-			/*border: 1px solid red; */
 			position: absolute;
 			left: 870px;
 			color: #797778;
@@ -44,7 +43,6 @@
 			width: 300px;
 			position: absolute;
 			left: 1250px;
-
 		}
 		ul{
 			display: inline;
@@ -57,9 +55,11 @@
 			color: #5d5a5c;
 			float: left;
 			margin-right: 10px;
-			/*border-bottom: 2px solid red;*/
 		}
 		#nav0>ul>li>a:link{color: black;}
+		select{
+			border:1px solid #fff; 
+		}
 		#wbwx{
 			height: 40px;
 			width: 80px;
@@ -72,21 +72,21 @@
 			display: inline;
 		}
 		#head{
+			margin: 0 auto;
 			width: 1200px;
 			height: 100px;
-			/*border: 1px solid red;*/
 		}
 		#head>#logo{
-			position: absolute;
-			left: 300px;
-			top: 60px;
+			position: relative;
+			left: 30px;
+			top:18px;
 		}
 		#search{
 			height: 47px;
 			width: 538px;
-			position: absolute;
-			left:770px; 
-			top:70px;
+			position: relative;
+			left:200px; 
+			/*top:-35px;*/
 			text-align: center;
 			color:#e4e4e4;
 			border: 1px solid black;
@@ -95,10 +95,9 @@
 		#button{
 			height: 47px;
 			width: 62px;
-			position: absolute;
-			left: 1310px;
-			top: 70px;
-			/*padding: 0 auto;*/
+			position: relative;
+			left: 979px;
+			top: -49px;
 			text-align: center;
 			line-height: 47px;
 			border: 1px solid black;
@@ -109,17 +108,16 @@
 			top: 5px;
 		}
 		#cart{
-			position: absolute;
-			left: 1545px;
-			top: 82px;
-
+			position: relative;
+			left: 1145px;
+			top: -87px;
 		}
 		#nav1{
+			margin: 0 auto;
 			width: 1500px;
 			height: 45px;
 			position: relative;
-			left: 300px;
-
+			left: 130px;
 		}
 		#nav1>ul>a{
 			height: 45px;
@@ -129,8 +127,6 @@
 			margin: 0px 24px;
 			float: left;
 		}
-
-		
 		#nav11{
 			height: 45px;
 			width: 150px;
@@ -145,20 +141,29 @@
 			border-bottom: 3px solid #3aa747;
 		}
 		#line{
+			margin: 0 auto;
 			width: 1915px;
 			border:2px solid #3aa747; 
 			position: relative;
 			top: 2px;
 		}
-		#banner{width: 1919px;}
+		#banner{
+			margin: 0 auto;
+			height: 677px;
+			/*width: 1919px;*/
+			background: url(image/banner.png); 
+			background-position: center;
+			background-repeat: no-repeat;
+
+			}
 		#nav2{
+			margin: 0 auto;
 			width: 1200px;
 			width: 60px;
 			background-color: #030a09;
 			position: fixed;
 			right: 0px;
 			top: 200px;
-
 		}
 		.nav22{
 			width: 60px;
@@ -168,13 +173,13 @@
 			border-bottom:1px solid #ccc; 
 		}
 		#crumb{
+			width: 1200px;
+			margin: 0 auto;
 			height: 60px;
 			line-height: 60px;
 		}
 		#crumb1{
 			display: inline;
-			position: relative;
-			left: 300px;
 		}
 		span{
 			color: #929191;
@@ -185,28 +190,25 @@
 			color: #929191;
 			font-size: 10px;
 			position: relative;
-			left: 1350px;
+			left: 1050px;
 		}
 		#nav3{
+			margin: 0 auto;
 			width: 1200px;
 			height:135px;
-			position: relative;
-			left: 300px;
 		}
 		.nav33{
+			margin: 0 auto;
 			width: 1200px;
 			height:45px;
 			border: 1px solid #ccc;
 			margin: -1px 0px 0px 0px;
 		}
-
 		.nav33>ul>li{
-			/*height: 45px;*/
 			width: 120px;
 			line-height: 45px;
 			text-align: center;
 			float: left;
-
 		}
 		.nav33>ul>li>a:link{
 			color: #737373;
@@ -214,8 +216,6 @@
 		.nav33>ul>li>a:hover{
 			color: #3aa747;
 		}
-		
-		
 		.nav333{
 			float:left;
 			width: 120px;
@@ -223,27 +223,24 @@
 			text-align: center;
 			line-height: 45px;
 			background-color: #e5e5e5
-			
 		}
 		#more{
 			position: relative;
 			left: 200px;
 			top: 13px;
 			font-size: 15px;
-
 		}
 		#more:link{color: #737373;}
+		#more:hover{color: #3aa747;}
 		#line2{
+			margin: 0 auto;
 			width: 1919px;
 			height: 20px;}
 		#content{
+			margin: 0 auto;
 			width: 1255px;
 			height: 685px;
-			/*border:1px solid red;*/
-			position: relative;
-			left: 270px;
 			color: #fff;
-			/*padding: 30px;*/
 		}
 		#content>div{
 			float: left;
@@ -280,18 +277,19 @@
 			top: 0px;
 		}
 		#line3{
-			width: 1919px;
 			height: 100px;}
 		#bg{
-			width: 1919px;
+			margin: 0 auto;
 			height: 100px;
+			text-align: center;
 			background-color: #f5f5f5;}
 		#merits{
+			margin: 0 auto;
 			width:1400px; 
 			height: 50px;
 			text-align: center;
 			position: relative;
-			left: 400px;
+			left: 170px;
 			top: 30px;
 		}
 		.mer{
@@ -301,8 +299,6 @@
 			color: #5a5a5a;
 			text-align: left;
 			padding-left: 20px;
-			/*font-weight:bold;*/
-			/*border:1px solid red;  */
 			margin-right: 20px;
 		}
 		.f{
@@ -313,7 +309,7 @@
 		.p1{font-size: 19px;}
 		.p2{font-size: 10px;}
 		#foot{
-			width: 1919px;
+			margin: 0 auto;
 			background-color: #323232;
 			height: 95px;
 			text-align: center;
@@ -323,215 +319,222 @@
 	</style>
 </head>
 <body>
-	<div id="nav">
-		<div id="hello">
-			嘿，欢迎来买猜商城！
-		</div>
-		<div id="sign">
-			<a href="#">请登录</a>
-			&nbsp;&nbsp;&nbsp;
-			<a href="#">免费注册</a>
-		</div>
-		<div id="nav0">
-			<ul>
-				<li class="nav00"><a href="#">我的订单 <img src="image/angle.png" alt="angle"></a></li>
-				<li class="nav00"><a href="#">我的买猜 <img src="image/angle.png" alt="angle"></a></li>
-				<li><a href="#">帮助中心</a></li>
-			</ul>
-		</div>
-		<div id="wbwx">
-			<a href="#"><img src="image/wb.png" alt="wb"></a>
-			    &nbsp;
-			    <a href="#"><img src="image/wx.png" alt="wx"></a>
-		</div>
-	</div>
-	<div id="head">
-		<img id="logo" src="image/logo.png" alt="logo">
-		<form action="#" method="post">
-			<input id="search" type="text" name="text" value="请输入搜索内容">
-			<a href="#"><div id="button"><img src="image/search.png" alt="search"></div></a>
-		</form>
-		<a href="#"><img id="cart" src="image/cart.png" alt="cart"></a>
-		
-	</div>
-	<div id="nav1">
-		<div id="nav11">
-			<a href="#">全部商品分类<img src="image/angle.png" alt="angle"></a>
-		</div>
-		<ul>
-			<a href="#"><li>首页</li></a>
-			<a href="#"><li>名酒</li></a>
-			<a href="#"><li>茗茶</li></a>
-			<a href="#"><li style="color:#3aa747;border-bottom:3px solid #3aa747; ">玉石</li></a>
-			<a href="#"><li>休闲食品</li></a>
-			<a href="#"><li>洗护用品</li></a>
-			<a href="#"><li>土特产</li></a>
-			<a href="#"><li>积分商城</li></a>
-			<a href="#"><li>抽奖游戏</li></a>
-		</ul>
-	</div>
-	<div id="line">	</div>
-	<div id="banner">
-	<img src="image/banner.png"/>		
-	</div>
-	<div id="nav2">
-			<a href="#"><div class="nav22"><img src="image/cart1.png"></div></a>
-			<a href="#"><div class="nav22"><img src="image/qq.png"></div></a>
-			<a href="#"><div class="nav22"><img src="image/zuji.png"></div></a>
-			<a href="#"><div class="nav22"><img src="image/erweima.png"></div></a>
-			<a href="#"><div class="nav22"><img src="image/gotop.png"></div></a>
-		</ul>
-	</div>
-	<div id="crumb">
-		<p id="crumb1">首页><span>玉石</span></p>
-		<p id="crumb2">共200件相关商品</p>
-	</div>
-	<div id="nav3">
-		<div class="nav33">
-			<div class="nav333">
-				玉石
+	<form action="#" method="post">
+		<div id="nav">
+			<div id="hello">
+				嘿，欢迎来买猜商城！
 			</div>
+			<div id="sign">
+				<a href="#">请登录</a>
+				&nbsp;&nbsp;&nbsp;
+				<a href="#">免费注册</a>
+			</div>
+			<div id="nav0">
+				<ul>
+					<li class="nav00">
+						<!-- <a href="#">  -->
+					     	<select name = "class1">
+					            <option value = "one"  selected> 我的订单</option>
+					        </select>
+						<!-- </a> -->
+					</li>
+					<li class="nav00">
+						
+						<select name = "class2">
+					        <option value = "one"  selected> 我的买猜</option>
+					    </select>
+					</li>
+					<li><a href="#">帮助中心</a></li>
+				</ul>
+			</div>
+			<div id="wbwx">
+				<a href="#"><img src="image/wb.png" alt="wb"></a>
+				    &nbsp;
+				    <a href="#"><img src="image/wx.png" alt="wx"></a>
+			</div>
+		</div>
+		<div id="head">
+			<img id="logo" src="image/logo.png" alt="logo">
 			
-
-			<ul>
-				<li><a href="#">白玉</a></li>
-				<li><a href="#">碧玉</a></li>
-				<li><a href="#">黄玉</a></li>
-				<li><a href="#">和田玉</a></li>
-				<li style="color:#3aa747;">翡翠</li>
-				<li><a href="#">绿松玉</li></a>
-				<li><a href="#">墨玉</a></li>
-				<li></li>
-			</ul>
+				<input id="search" type="text" name="text" value="请输入搜索内容">
+				<a href="#"><div id="button"><img src="image/search.png" alt="search"></div></a>
+			
+			<a href="#"><img id="cart" src="image/cart.png" alt="cart"></a>
+			
 		</div>
-		<div class="nav33">
-			<div class="nav333">
-				其他
+		<div id="nav1">
+			<div id="nav11">
+				<!-- <a href="#"> -->
+					<select name = "class3">
+					    <option value = "one"  selected>全部商品分类</option>
+					</select>
+				<!-- </a> -->
 			</div>
 			<ul>
-				<li style="color:#3aa747;">吊坠</li>
-				<li><a href="#">扳指</a></li>
-				<li><a href="#">手镯</a></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+				<a href="#"><li>首页</li></a>
+				<a href="#"><li>名酒</li></a>
+				<a href="#"><li>茗茶</li></a>
+				<a href="#"><li style="color:#3aa747;border-bottom:3px solid #3aa747; ">玉石</li></a>
+				<a href="#"><li>休闲食品</li></a>
+				<a href="#"><li>洗护用品</li></a>
+				<a href="#"><li>土特产</li></a>
+				<a href="#"><li>积分商城</li></a>
+				<a href="#"><li>抽奖游戏</li></a>
 			</ul>
 		</div>
-		<div class="nav33">
-			<div class="nav333">
-				地区
-			</div>
-			<ul>
-				<li><a href="#">北京</a></li>
-				<li><a href="#">安徽</a></li>
-				<li><a href="#">福建</a></li>
-				<li><a href="#">内蒙古</a></li>
-				<li><a href="#">宁夏</a></li>
-				<li><a href="#">黑龙江</a></li>
-				<li><a href="#">河北</a></li>
+		<div id="line">	</div>
+		<div id="banner">
+		</div>
+		<div id="nav2">
+				<a href="#"><div class="nav22"><img src="image/cart1.png"></div></a>
+				<a href="#"><div class="nav22"><img src="image/qq.png"></div></a>
+				<a href="#"><div class="nav22"><img src="image/zuji.png"></div></a>
+				<a href="#"><div class="nav22"><img src="image/erweima.png"></div></a>
+				<a href="#"><div class="nav22"><img src="image/gotop.png"></div></a>
 			</ul>
-			<a id="more" href="#">更多</a>
 		</div>
-	</div>
-	<div id="line2"></div>
-	<div id="content">
-		<div class="content0">
-			<div class="content00">
-				竞猜价：¥   399.00
-				<br/>
-				翡翠千手观音吊坠
+		<div id="crumb">
+			<p id="crumb1">首页><span>玉石</span></p>
+			<p id="crumb2">共200件相关商品</p>
+		</div>
+		<div id="nav3">
+			<div class="nav33">
+				<div class="nav333">
+					玉石
+				</div>
+				<ul>
+					<li><a href="#">白玉</a></li>
+					<li><a href="#">碧玉</a></li>
+					<li><a href="#">黄玉</a></li>
+					<li><a href="#">和田玉</a></li>
+					<li style="color:#3aa747;">翡翠</li>
+					<li><a href="#">绿松玉</li></a>
+					<li><a href="#">墨玉</a></li>
+					<li></li>
+				</ul>
 			</div>
-		</div>
-		<div class="content1">
-			<div class="content00">
-				竞猜价：¥   1980.00
-				<br/>
-				翡翠龙凤吊坠
+			<div class="nav33">
+				<div class="nav333">
+					其他
+				</div>
+				<ul>
+					<li style="color:#3aa747;">吊坠</li>
+					<li><a href="#">扳指</a></li>
+					<li><a href="#">手镯</a></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
 			</div>
-		</div>
-		<div class="content2">
-			<div class="content00">
-				竞猜价：¥   199.00
-				<br/>
-				翡翠花蕊吊坠
-			</div>
-		</div>
-		<div class="content3">
-			<div class="content00">
-				竞猜价：¥   199.00
-				<br/>
-				翡翠如意吊坠
-			</div>
-		</div>
-		<div class="content4">
-			<div class="content00">
-				竞猜价：¥   99.00
-				<br/>
-				翡翠婵吊坠
-			</div>
-		</div>
-		<div class="content5">
-			<div class="content00">
-				竞猜价：¥   99.00
-				<br/>
-				翡翠观音（浅色）吊坠
-			</div>
-		</div>
-		<div class="content6">
-			<div class="content00">
-				竞猜价：¥   199.00
-				<br/>
-				翡翠平安扣（深色）吊坠
+			<div class="nav33">
+				<div class="nav333">
+					地区
+				</div>
+				<ul>
+					<li><a href="#">北京</a></li>
+					<li><a href="#">安徽</a></li>
+					<li><a href="#">福建</a></li>
+					<li><a href="#">内蒙古</a></li>
+					<li><a href="#">宁夏</a></li>
+					<li><a href="#">黑龙江</a></li>
+					<li><a href="#">河北</a></li>
+				</ul>
+				<a id="more" href="#">更多</a>
 			</div>
 		</div>
-		<div class="content7">
-			<div class="content00">
-				竞猜价：¥   199.00
-				<br/>
-				翡翠如意吊坠
+		<div id="line2"></div>
+		<div id="content">
+			<div class="content0">
+				<div class="content00">
+					竞猜价：¥   399.00
+					<br/>
+					翡翠千手观音吊坠
+				</div>
+			</div>
+			<div class="content1">
+				<div class="content00">
+					竞猜价：¥   1980.00
+					<br/>
+					翡翠龙凤吊坠
+				</div>
+			</div>
+			<div class="content2">
+				<div class="content00">
+					竞猜价：¥   199.00
+					<br/>
+					翡翠花蕊吊坠
+				</div>
+			</div>
+			<div class="content3">
+				<div class="content00">
+					竞猜价：¥   199.00
+					<br/>
+					翡翠如意吊坠
+				</div>
+			</div>
+			<div class="content4">
+				<div class="content00">
+					竞猜价：¥   99.00
+					<br/>
+					翡翠婵吊坠
+				</div>
+			</div>
+			<div class="content5">
+				<div class="content00">
+					竞猜价：¥   99.00
+					<br/>
+					翡翠观音（浅色）吊坠
+				</div>
+			</div>
+			<div class="content6">
+				<div class="content00">
+					竞猜价：¥   199.00
+					<br/>
+					翡翠平安扣（深色）吊坠
+				</div>
+			</div>
+			<div class="content7">
+				<div class="content00">
+					竞猜价：¥   199.00
+					<br/>
+					翡翠如意吊坠
+				</div>
 			</div>
 		</div>
-	</div>
-	<div id="line3"></div>
-	<div id="bg">
-		<div id="merits">
-			<div class="mer" style="border-right:1px solid #e0e0e0;">
-				<img class="f" src="image/f1.png" alt="f1" />
-				<p class="p1">资质认证</p>
-				<p class="p2">服务商100%实名认证</p>
+		<div id="line3"></div>
+		<div id="bg">
+			<div id="merits">
+				<div class="mer" style="border-right:1px solid #e0e0e0;">
+					<img class="f" src="image/f1.png" alt="f1" />
+					<p class="p1">资质认证</p>
+					<p class="p2">服务商100%实名认证</p>
+				</div>
+				<div class="mer" style="border-right:1px solid #e0e0e0;">
+					<img class="f" src="image/f2.png" alt="f2" />
+					<p class="p1">支付安全</p>
+					<p class="p2">明码标价支付及信息安全</p>
+				</div>
+				<div class="mer" style="border-right:1px solid #e0e0e0;">
+					<img class="f" src="image/f3.png" alt="f3" />
+					<p class="p1">保险赔付</p>
+					<p class="p2">为您提供担保赔付</p>
+				</div>
+				<div class="mer">
+					<img class="f" src="image/f4.png" alt="f4" />
+					<p class="p1">售后无忧</p>
+					<p class="p2">服务出问题经理全程跟进</p>
+				</div>
 			</div>
-			<div class="mer" style="border-right:1px solid #e0e0e0;">
-				<img class="f" src="image/f2.png" alt="f2" />
-				<p class="p1">支付安全</p>
-				<p class="p2">明码标价支付及信息安全</p>
-				
-			</div>
-			<div class="mer" style="border-right:1px solid #e0e0e0;">
-				<img class="f" src="image/f3.png" alt="f3" />
-				<p class="p1">保险赔付</p>
-				<p class="p2">为您提供担保赔付</p>
-				
-			</div>
-			<div class="mer">
-				<img class="f" src="image/f4.png" alt="f4" />
-				<p class="p1">售后无忧</p>
-				<p class="p2">服务出问题经理全程跟进</p>
-			</div>
-
 		</div>
-	</div>
-	<div id="foot">
-		<br/>
-		<a href="#">首页</a>&nbsp;&nbsp;| &nbsp;&nbsp;<a href="#">工商代理</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">财务代记账</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">股权交易与变更</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">企业贷款</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">办公室租赁</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">社保公积金代理</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">法律服务</a>
-		<br/>
-		<br/>
-		© 2017-2018 买猜商城有限公司 版权所有
-
- 
-	</div>
-	
-
+		<div id="foot">
+			<br/>
+			<a href="#">首页</a>&nbsp;&nbsp;| &nbsp;&nbsp;<a href="#">工商代理</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">财务代记账</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">股权交易与变更</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">企业贷款</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">办公室租赁</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">社保公积金代理</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">法律服务</a>
+			<br/>
+			<br/>
+			© 2017-2018 买猜商城有限公司 版权所有
+		</div>
+	</form>
 </body>
 </html>
